@@ -1,0 +1,13 @@
+Name,Type,Description
+sauid,Text,
+Source Area Number,Long Integer,Source Area Number (1 through 7)
+Source Area Name,Text,Name of Source Area (e.g. 'On Lot Landscaping')
+BMP Index,Long Integer,
+BMP Family,Text,Type of BMP Used for that Source Area 
+BMP Volume,Double,Volume of BMP Used for that Source Area (ft3)
+BMT Tributary Area,Double,
+Annual Runoff Volume,Double,Annual Runoff Volume from the Source Area Prior to Implementation of BMPs (normalized to an SLDM size of 1 acre) (ft3/SLDM-acre)
+Annual Runoff Volume Retained,Double,Annual Runoff Volume Captured by the BMP and Retained On-Site (ft3/SLDM-acre)
+Annual Runoff Volume Treated and Discharged,Double,"Annual Runoff Volume Captured by the BMP, Treated and Discharged (ft3/SLDM-acre)"
+Annual Runoff Volume Bypassed Without Treatment,Double,Annual Runoff Volume Not Captured by the BMP (ft3/SLDM-acre)
+Total SDRate,Double,Treated Surface Discharge Rate (cfs)
