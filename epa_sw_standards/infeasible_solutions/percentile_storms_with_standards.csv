@@ -1,0 +1,353 @@
+BATCH #,STATION ORDER, Station ID,Station_Name,State,75%,80%,85%,90%,95%,MS4_Standard_Description,Depth,Nearest_percentile_MS4,Nearest_Pecentile_depth_MS4,difference_from_nearest_percentile_MS4,State_Standard_Description,Depth,Nearest_percentile_state,Difference_from_nearest_percentile_state
+1,1,15550,MONTGOMERY AP ASOS,AL,0.92,1.08,1.25,1.51,2.01,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+1,2,26481,PHOENIX AP,AZ,0.50,0.57,0.67,0.80,1.02,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+1,3,47769,SAN FRANCISCO WSO AP,CA,0.65,0.75,0.89,1.08,1.39,85th Percentile Rainfall Depth,0.89,85%,1.25,#N/A,85th Percentile Rainfall Depth,0.89,85%,#N/A
+1,4,45114,LOS ANGELES INTL AP,CA,0.72,0.82,1.02,1.26,1.60,85th Percentile Rainfall Depth,1.02,85%,1.25,#N/A,85th Percentile Rainfall Depth,1.02,85%,#N/A
+1,5,47740,SAN DIEGO WSO AP,CA,0.57,0.65,0.78,0.96,1.25,85th Percentile Rainfall Depth,0.78,85%,1.25,#N/A,85th Percentile Rainfall Depth,0.78,85%,#N/A
+1,6,85663,MIAMI INTL AP,FL,0.87,1.05,1.28,1.58,2.20,1.0-in*imperv.,1,75%,0.92,#N/A,0.5-in storm,0.5,#N/A,#N/A
+1,7,90451,ATLANTA/MUN. GA.,GA,0.83,0.96,1.14,1.40,1.80,1.2-in storm,1.2,85%,1.25,#N/A, ,,#N/A,#N/A
+1,8,101022,BOISE AIR TERMINAL,ID,0.32,0.36,0.42,0.49,0.61,80th Percentile Rainfall Depth,0.32,75%,0.92,#N/A,,,#N/A,#N/A
+1,9,124259,INDIANAPOLIS INTL AP,IN,0.67,0.78,0.91,1.11,1.47,1-in storm,1,85%,1.25,#N/A,,,#N/A,#N/A
+1,10,132203,DES MOINES AP,IA,0.67,0.77,0.91,1.12,1.50,WQv,1.25,90%,1.51,#N/A,WQv,1.25,90%,#N/A
+1,11,160549,BATON ROUGE METRO AP,LA,0.96,1.12,1.36,1.68,2.30,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+1,12,215435,MINNEAPOLIS/ST PAUL AP,MN,0.57,0.69,0.80,1.00,1.33,0.5-in*imperv.,0.5,#N/A,#N/A,#N/A,0.5-in*imperv.,0.5,#N/A,#N/A
+1,13,244055,HELENA AP ASOS,MT,0.35,0.39,0.45,0.55,0.73,0.5-in storm,0.5,85%,1.25,#N/A, ,,#N/A,#N/A
+1,14,305811,NEW YORK LA GUARDIA AP,NY,0.73,0.85,1.00,1.22,1.68,95th Percentile Rainfall Depth,1.6,90%,1.51,#N/A,95th Percentile Rainfall Depth,1.68,95%,0.00
+1,15,300042,ALBANY INTL AP,NY,0.60,0.68,0.80,0.96,1.27,95th Percentile Rainfall Depth,1.27,95%,2.01,0.00,95th Percentile Rainfall Depth,1.27,95%,0.00
+1,16,317069,RALEIGH  AP,NC,0.75,0.85,0.99,1.20,1.57,1-in storm,1,85%,1.25,#N/A,1-in storm,1,85%,#N/A
+1,17,320819,BISMARCK MUNI AP,ND,0.48,0.56,0.66,0.84,1.12,0.5-in*imperv.,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+1,18,346661,OKLAHOMA CITY WILL ROGERS AP,OK,0.85,0.98,1.17,1.43,1.87,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+1,19,356751,PORTLAND INTL AP,OR,0.47,0.53,0.63,0.76,0.98,80% of the average annual runoff,0.68,85%,1.25,#N/A,,,#N/A,#N/A
+1,20,381939,COLUMBIA METRO AP,SC,0.85,0.99,1.19,1.45,1.92,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+1,21,406402,NASHVILLE ASOS,TN,0.77,0.90,1.05,1.30,1.75,1-in storm,1,80%,1.08,#N/A,,,#N/A,#N/A
+1,22,412797,EL PASO AP,TX,0.44,0.51,0.60,0.76,1.04,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+1,23,427598,SALT LAKE CITY INTL AP,UT,0.40,0.44,0.51,0.61,0.80,0.5-in storm,0.5,80%,1.08,#N/A,,,#N/A,#N/A
+1,24,448906,WASHINGTON/NAT. VA.,DC,0.70,0.82,0.94,1.14,1.50,90% Capture,1.2,90%,1.51,#N/A,,,#N/A,#N/A
+2,1,14064,HUNTSVILLE INTL AP,AL,0.90,1.04,1.24,1.49,2.00,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+2,2,10831,BIRMINGHAM AP ASOS,AL,0.90,1.04,1.20,1.46,1.93,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+2,3,10063,ADDISON,AL,0.97,1.10,1.30,1.60,2.10,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+2,4,14209,JACKSONVILLE,AL,0.90,1.00,1.20,1.46,1.92,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+2,5,12124,DADEVILLE 2,AL,0.90,1.10,1.30,1.50,2.00,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+2,6,10140,ALBERTA,AL,1.00,1.15,1.40,1.60,2.20,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+2,7,15478,MOBILE REGIONAL AP,AL,1.02,1.22,1.45,1.80,2.42,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+2,8,24645,KINGMAN #2,AZ,0.60,0.60,0.80,0.90,1.20,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+2,9,29439,WINSLOW AP,AZ,0.38,0.43,0.48,0.59,0.75,0.5-in storm,0.5,85%,1.25,#N/A,,,#N/A,#N/A
+2,10,20487,ASH FORK 3,AZ,0.50,0.60,0.69,0.80,1.10,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+2,11,26323,PAYSON,AZ,0.67,0.75,0.90,1.10,1.50,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+2,12,29660,YUMA WSO AP,AZ,0.45,0.52,0.58,0.70,1.11,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+2,13,28820,TUCSON INTL AP,AZ,0.49,0.55,0.66,0.82,1.10,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+2,14,32356,EUREKA SPRINGS 3 WNW,AR,0.90,1.01,1.20,1.46,1.91,90th Percentile Rainfall Depth,1.4,85%,1.25,#N/A,,,#N/A,#N/A
+2,15,32794,GILBERT,AR,0.87,0.99,1.18,1.45,1.95,90th Percentile Rainfall Depth,1.4,85%,1.25,#N/A,,,#N/A,#N/A
+2,16,30458,BATESVILLE LVSTK,AR,0.93,1.10,1.30,1.60,2.10,90th Percentile Rainfall Depth,1.4,85%,1.25,#N/A,,,#N/A,#N/A
+2,17,32574,FT SMITH RGNL AP,AR,0.84,0.99,1.20,1.46,1.92,90th Percentile Rainfall Depth,1.4,85%,1.25,#N/A,,,#N/A,#N/A
+2,18,34248,LITTLE ROCK ADAMS FLD,AR,0.92,1.08,1.28,1.58,2.10,90th Percentile Rainfall Depth,1.4,85%,1.25,#N/A,,,#N/A,#N/A
+2,19,36920,STUTTGART 9 ESE,AR,0.97,1.10,1.30,1.69,2.20,90th Percentile Rainfall Depth,1.4,85%,1.25,#N/A,,,#N/A,#N/A
+2,20,32810,GILLHAM DAM,AR,1.10,1.30,1.50,1.80,2.40,90th Percentile Rainfall Depth,1.4,80%,1.08,#N/A,,,#N/A,#N/A
+2,21,30220,ARKADELPHIA 2 N,AR,1.03,1.20,1.44,1.80,2.30,90th Percentile Rainfall Depth,1.4,80%,1.08,#N/A,,,#N/A,#N/A
+2,22,35754,PINE BLUFF,AR,1.00,1.20,1.40,1.70,2.20,90th Percentile Rainfall Depth,1.4,85%,1.25,#N/A,,,#N/A,#N/A
+2,23,42910,EUREKA WFO WOODLEY IS,CA,0.66,0.76,0.88,1.04,1.37,85th Percentile Rainfall Depth,0.88,85%,1.25,#N/A,85th Percentile Rainfall Depth,0.88,85%,#N/A
+2,24,40161,ALTURAS,CA,0.40,0.40,0.50,0.59,0.72,85th Percentile Rainfall Depth,0.5,85%,1.25,#N/A,85th Percentile Rainfall Depth,0.5,85%,#N/A
+3,1,48873,TERMO 1 E,CA,0.38,0.40,0.49,0.60,0.80,85th Percentile Rainfall Depth,0.49,85%,1.25,#N/A,85th Percentile Rainfall Depth,0.49,85%,#N/A
+3,2,43257,FRESNO YOSEMITE INT'L,CA,0.50,0.57,0.68,0.80,0.97,85th Percentile Rainfall Depth,0.68,85%,1.25,#N/A,85th Percentile Rainfall Depth,0.68,85%,#N/A
+3,3,44232,INDEPENDENCE,CA,0.54,0.65,0.70,0.90,1.30,85th Percentile Rainfall Depth,0.7,85%,1.25,#N/A,85th Percentile Rainfall Depth,0.7,85%,#N/A
+3,4,53477,GRANADA,CO,0.60,0.69,0.80,1.00,1.40,WQv (a=0.9),0.9,85%,1.25,#N/A, ,,#N/A,#N/A
+3,5,53488,GRAND JUNCTION WALKER,CO,0.31,0.36,0.42,0.50,0.61,WQv (a=0.9),0.9,95%,2.01,-0.29,,,#N/A,#N/A
+3,6,50304,ARAPAHOE,CO,0.60,0.70,0.80,0.93,1.30,WQv (a=0.9),0.9,85%,1.25,#N/A,,,#N/A,#N/A
+3,7,51179,BYERS 5 ENE,CO,0.50,0.60,0.70,0.83,1.20,WQv (a=0.9),0.9,90%,1.51,#N/A,,,#N/A,#N/A
+3,8,57337,SAGUACHE,CO,0.36,0.40,0.44,0.50,0.64,WQv (a=0.9),0.9,95%,2.01,-0.26,,,#N/A,#N/A
+3,9,65445,NORFOLK 2 SW,CT,0.77,0.89,1.04,1.26,1.69,1-in storm,1,80%,1.08,#N/A,1-in storm,1,80%,#N/A
+3,10,63456,HARTFORD,CT,0.74,0.85,1.01,1.25,1.60,1-in storm,1,80%,1.08,#N/A,1-in storm,1,80%,#N/A
+3,11,60806,BRIDGEPORT SIKORSKY AP,CT,0.70,0.81,0.96,1.19,1.60,1-in storm,1,85%,1.25,#N/A,1-in storm,1,85%,#N/A
+3,12,79595,WILMINGTON NEW CASTLE,DE,0.75,0.85,0.99,1.22,1.62,2-in storm,2,95%,2.01,-0.38,2-in storm,2,95%,-0.38
+3,13,73570,GEORGETOWN 5 SW,DE,0.80,0.90,1.10,1.30,1.70,2-in storm,2,95%,2.01,-0.30,2-in storm,2,95%,-0.30
+3,14,80211,APALACHICOLA AP,FL,0.99,1.16,1.40,1.71,2.39,1.0-in*imperv.,1,75%,0.92,#N/A,0.5-in storm,0.5,#N/A,#N/A
+3,15,80975,BRANFORD,FL,0.90,1.09,1.29,1.55,2.20,1.0-in*imperv.,1,75%,0.92,#N/A,0.5-in storm,0.5,#N/A,#N/A
+3,16,82158,DAYTONA BEACH INTL AP,FL,0.86,1.00,1.20,1.49,2.03,1.0-in*imperv.,1,80%,1.08,#N/A,0.5-in storm,0.5,#N/A,#N/A
+3,17,85612,MELBOURNE WFO,FL,0.90,1.10,1.30,1.51,2.10,1.0-in*imperv.,1,75%,0.92,#N/A,0.5-in storm,0.5,#N/A,#N/A
+3,18,83186,FT MYERS PAGE FLD AP,FL,1.00,1.20,1.40,1.70,2.30,1.0-in*imperv.,1,75%,0.92,#N/A,0.5-in storm,0.5,#N/A,#N/A
+3,19,84570,KEY WEST INTL AP,FL,0.74,0.87,1.09,1.41,1.92,1.0-in*imperv.,1,80%,1.08,#N/A,0.5-in storm,0.5,#N/A,#N/A
+3,20,92485,DALLAS 7 NE,GA,0.90,1.00,1.20,1.42,1.98,1.2-in storm,1.2,85%,1.25,#N/A,,,#N/A,#N/A
+3,21,91619,CARNESVILLE 4 N,GA,0.90,1.07,1.28,1.50,1.95,1.2-in storm,1.2,80%,1.08,#N/A,,,#N/A,#N/A
+3,22,92166,COLUMBUS METO AP,GA,0.85,0.99,1.18,1.46,1.90,1.2-in storm,1.2,85%,1.25,#N/A,,,#N/A,#N/A
+3,23,95443,MACON MIDDLE GA AP,GA,0.80,0.94,1.13,1.37,1.86,1.2-in storm,1.2,85%,1.25,#N/A,,,#N/A,#N/A
+3,24,90495,AUGUSTA BUSH FLD AP,GA,0.80,0.92,1.10,1.36,1.77,1.2-in storm,1.2,85%,1.25,#N/A,,,#N/A,#N/A
+4,1,93028,EDISON,GA,0.90,1.10,1.30,1.60,2.15,1.2-in storm,1.2,80%,1.08,#N/A,,,#N/A,#N/A
+4,2,96879,PEARSON,GA,0.90,1.10,1.29,1.50,2.00,1.2-in storm,1.2,80%,1.08,#N/A,,,#N/A,#N/A
+4,3,97847,SAVANNAH INTL AP,GA,0.85,0.98,1.18,1.42,1.95,1.2-in storm,1.2,85%,1.25,#N/A,,,#N/A,#N/A
+4,4,101079,BONNERS FERRY,ID,0.42,0.50,0.59,0.70,0.90,80th Percentile Rainfall Depth,0.32,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,5,105241,LEWISTON AP,ID,0.32,0.36,0.41,0.48,0.62,80th Percentile Rainfall Depth,0.32,75%,0.92,#N/A,,,#N/A,#N/A
+4,6,103143,FENN RS,ID,0.50,0.60,0.68,0.80,1.00,80th Percentile Rainfall Depth,0.32,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,7,107327,PRAIRIE,ID,0.50,0.58,0.68,0.80,1.05,80th Percentile Rainfall Depth,0.32,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,8,103811,GRASMERE 3 S,ID,0.40,0.40,0.50,0.60,0.80,80th Percentile Rainfall Depth,0.32,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,9,103677,GOODING 1 S,ID,0.40,0.44,0.50,0.60,0.80,80th Percentile Rainfall Depth,0.32,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,10,105169,LEADORE,ID,0.30,0.37,0.40,0.50,0.60,80th Percentile Rainfall Depth,0.32,75%,0.92,#N/A,,,#N/A,#N/A
+4,11,107211,POCATELLO RGNL AP,ID,0.33,0.37,0.42,0.50,0.63,80th Percentile Rainfall Depth,0.32,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,12,104456,IDAHO FALLS 16 SE,ID,0.40,0.40,0.50,0.60,0.70,80th Percentile Rainfall Depth,0.32,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,13,115751,MOLINE WSO AP,IL,0.69,0.81,0.96,1.16,1.56,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,14,111577,CHICAGO MIDWAY AP 3SW,IL,0.66,0.78,0.90,1.10,1.50,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,15,110082,ALEXIS 1 SW,IL,0.70,0.80,0.97,1.20,1.60,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,16,116711,PEORIA GTR PEORIA RGNL,IL,0.66,0.78,0.93,1.12,1.47,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,17,114198,HOOPESTON 1NE,IL,0.70,0.80,0.90,1.10,1.50,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,18,118179,SPRINGFIELD LINCOLN AP,IL,0.66,0.77,0.90,1.11,1.47,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,19,116159,NEWTON 6 SSE,IL,0.80,0.90,1.00,1.20,1.60,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,20,115983,MURPHYSBORO 2 SW,IL,0.81,0.96,1.10,1.39,1.74,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,21,112353,DIXON SPRINGS AG CTR,IL,0.81,0.99,1.15,1.40,1.82,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+4,22,125535,MEDARYVILLE 5 N,IN,0.70,0.77,0.90,1.10,1.50,1-in storm,1,85%,1.25,#N/A,,,#N/A,#N/A
+4,23,128187,SOUTH BEND AP,IN,0.59,0.68,0.80,1.00,1.33,1-in storm,1,90%,1.51,#N/A,,,#N/A,#N/A
+4,24,123037,FORT WAYNE AP,IN,0.60,0.69,0.82,1.00,1.30,1-in storm,1,90%,1.51,#N/A,,,#N/A,#N/A
+5,1,120922,BRAZIL,IN,0.80,0.90,1.00,1.20,1.61,1-in storm,1,85%,1.25,#N/A,,,#N/A,#N/A
+5,2,120132,ALPINE 2 NE,IN,0.70,0.80,0.92,1.12,1.46,1-in storm,1,85%,1.25,#N/A,,,#N/A,#N/A
+5,3,122738,EVANSVILLE REGIONAL AP,IN,0.77,0.87,1.03,1.26,1.70,1-in storm,1,80%,1.08,#N/A,,,#N/A,#N/A
+5,4,126580,OOLITIC PURDUE EX FRM,IN,0.80,0.90,1.05,1.23,1.60,1-in storm,1,80%,1.08,#N/A,,,#N/A,#N/A
+5,5,120482,BATESVILLE WTR WKS,IN,0.70,0.82,1.00,1.17,1.50,1-in storm,1,85%,1.25,#N/A,,,#N/A,#N/A
+5,6,136975,REMSEN,IA,0.70,0.80,0.97,1.19,1.50,WQv,1.25,90%,1.51,#N/A,WQv,1.25,90%,#N/A
+5,7,137602,SHELL ROCK,IA,0.70,0.80,0.92,1.10,1.50,WQv,1.25,90%,1.51,#N/A,WQv,1.25,90%,#N/A
+5,8,138009,STRAWBERRY POINT,IA,0.70,0.80,0.93,1.15,1.52,WQv,1.25,90%,1.51,#N/A,WQv,1.25,90%,#N/A
+5,9,137708,SIOUX CITY AP,IA,0.63,0.73,0.87,1.05,1.35,WQv,1.25,90%,1.51,#N/A,WQv,1.25,90%,#N/A
+5,10,130608,BELLEVUE L&D 12,IA,0.70,0.80,0.98,1.15,1.54,WQv,1.25,90%,1.51,#N/A,WQv,1.25,90%,#N/A
+5,11,131245,CARSON 3NNE,IA,0.80,0.90,1.06,1.32,1.86,WQv,1.25,85%,1.25,#N/A,WQv,1.25,85%,#N/A
+5,12,132195,DERBY,IA,0.74,0.84,1.00,1.20,1.63,WQv,1.25,90%,1.51,#N/A,WQv,1.25,90%,#N/A
+5,13,138688,WASHINGTON,IA,0.70,0.80,1.00,1.20,1.60,WQv,1.25,90%,1.51,#N/A,WQv,1.25,90%,#N/A
+5,14,143153,GOODLAND RENNER FLD,KS,0.54,0.63,0.74,0.95,1.27,85th Percentile Rainfall Depth,0.74,85%,1.25,#N/A,,,#N/A,#N/A
+5,15,141767,CONCORDIA BLOSSER MUNI,KS,0.68,0.80,0.97,1.19,1.60,85th Percentile Rainfall Depth,0.97,85%,1.25,#N/A,,,#N/A,#N/A
+5,16,143810,HORTON,KS,0.80,0.94,1.10,1.40,1.90,85th Percentile Rainfall Depth,1.1,85%,1.25,#N/A,,,#N/A,#N/A
+5,17,141730,COLLYER 10 S,KS,0.66,0.77,0.90,1.10,1.40,85th Percentile Rainfall Depth,0.9,85%,1.25,#N/A,,,#N/A,#N/A
+5,18,144178,KANOPOLIS LAKE,KS,0.80,0.90,1.07,1.30,1.70,85th Percentile Rainfall Depth,1.07,85%,1.25,#N/A,,,#N/A,#N/A
+5,19,148167,TOPEKA BILLARD MUNI AP,KS,0.76,0.89,1.07,1.35,1.78,85th Percentile Rainfall Depth,1.07,85%,1.25,#N/A,,,#N/A,#N/A
+5,20,142164,DODGE CITY RGNL AP,KS,0.62,0.72,0.86,1.05,1.44,85th Percentile Rainfall Depth,0.86,85%,1.25,#N/A,,,#N/A,#N/A
+5,21,148830,WICHITA MID-CONTINENT,KS,0.78,0.92,1.10,1.31,1.76,85th Percentile Rainfall Depth,1.1,85%,1.25,#N/A,,,#N/A,#N/A
+5,22,141351,CASSODAY 2SW,KS,0.82,1.00,1.15,1.40,1.80,85th Percentile Rainfall Depth,1.15,85%,1.25,#N/A,,,#N/A,#N/A
+5,23,151631,CLINTON 4 S,KY,0.90,1.00,1.20,1.43,1.90,80th Percentile Rainfall Depth,1,80%,1.08,#N/A,,,#N/A,#N/A
+5,24,154954,LOUISVILLE INTL AP,KY,0.72,0.81,0.95,1.16,1.51,80th Percentile Rainfall Depth,0.81,80%,1.08,#N/A,,,#N/A,#N/A
+6,1,154746,LEXINGTON BLUEGRASS AP,KY,0.69,0.80,0.94,1.15,1.50,80th Percentile Rainfall Depth,0.8,80%,1.08,#N/A,,,#N/A,#N/A
+6,2,151080,BUCKHORN LAKE,KY,0.69,0.78,0.90,1.10,1.44,80th Percentile Rainfall Depth,0.78,80%,1.08,#N/A,,,#N/A,#N/A
+6,3,168440,SHREVEPORT AP,LA,0.96,1.11,1.32,1.63,2.16,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+6,4,169803,WINNFIELD 3 N,LA,1.10,1.20,1.40,1.80,2.30,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+6,5,169806,WINNSBORO 5 SSE,LA,1.10,1.22,1.46,1.78,2.30,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+6,6,165266,LEESVILLE,LA,1.01,1.20,1.40,1.70,2.40,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+6,7,169357,VIDALIA #2,LA,1.10,1.29,1.50,1.80,2.55,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+6,8,165078,LAKE CHARLES AP,LA,1.02,1.23,1.47,1.81,2.55,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+6,9,165021,LAFAYETTE,LA,1.10,1.28,1.50,2.00,2.70,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+6,10,166660,NEW ORLEANS AP,LA,1.01,1.20,1.44,1.77,2.40,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+6,11,171175,CARIBOU WFO,ME,0.53,0.61,0.70,0.83,1.06,1-in*imperv.+0.4-in*perv.,1.4,95%,2.01,-0.34,,,#N/A,#N/A
+6,12,178641,SWANS FALLS,ME,0.73,0.87,1.00,1.20,1.60,1-in*imperv.+0.4-in*perv.,1.4,90%,1.51,#N/A,,,#N/A,#N/A
+6,13,176905,PORTLAND JETPORT,ME,0.72,0.82,0.97,1.20,1.62,1-in*imperv.+0.4-in*perv.,1.4,90%,1.51,#N/A,,,#N/A,#N/A
+6,14,188005,SALISBURY FAA AP,MD,0.68,0.78,0.92,1.14,1.86,WQv (Rev),1,85%,1.25,#N/A,WQv (Rev),1,85%,#N/A
+6,15,183090,FEDERALSBURG,MD,0.90,1.00,1.10,1.40,1.90,WQv (Rev),1,80%,1.08,#N/A,WQv (Rev),1,80%,#N/A
+6,16,186915,PATUXENT RIVER,MD,0.80,0.90,1.10,1.40,2.00,WQv (Rev),1,80%,1.08,#N/A,WQv (Rev),1,80%,#N/A
+6,17,180465,BALTIMORE WASH INTL AP,MD,0.74,0.84,0.99,1.23,1.62,WQv (Rev),1,85%,1.25,#N/A,WQv (Rev),1,85%,#N/A
+6,18,180470,BALTIMORE CITY,MD,0.77,0.89,1.05,1.28,1.72,WQv (Rev),1,80%,1.08,#N/A,WQv (Rev),1,80%,#N/A
+6,19,184030,HANCOCK,MD,0.69,0.76,0.90,1.08,1.30,WQv (Rev),0.9,85%,1.25,#N/A,WQv (Rev),0.9,85%,#N/A
+6,20,188315,SINES DEEP CREEK,MD,0.56,0.64,0.74,0.91,1.16,WQv (Rev),0.9,85%,1.25,#N/A,WQv (Rev),0.9,85%,#N/A
+6,21,193985,KNIGHTVILLE DAM,MA,0.73,0.85,1.00,1.24,1.68,90th Percentile Rainfall Depth,1,85%,1.25,#N/A,,,#N/A,#N/A
+6,22,190736,BLUE HILL,MA,0.78,0.90,1.08,1.30,1.75,90th Percentile Rainfall Depth,1,80%,1.08,#N/A,,,#N/A,#N/A
+6,23,190770,BOSTON,MA,0.71,0.82,0.96,1.19,1.57,90th Percentile Rainfall Depth,1,85%,1.25,#N/A,,,#N/A,#N/A
+6,24,204090,IRON MT KINGSFORD WWTP,MI,0.60,0.67,0.79,0.90,1.20,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+7,1,207366,SAULT STE MARIE SNDRSN,MI,0.46,0.53,0.62,0.77,1.02,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+7,2,200662,BELLAIRE,MI,0.50,0.60,0.70,0.80,1.10,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+7,3,200164,ALPENA CO RGNL AP,MI,0.49,0.56,0.66,0.81,1.04,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+7,4,205712,MUSKEGON CO AP,MI,0.51,0.59,0.71,0.86,1.15,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+7,5,203170,GLADWIN,MI,0.60,0.70,0.80,1.00,1.40,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+7,6,203580,HARBOR BEACH,MI,0.50,0.60,0.70,0.82,1.10,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+7,7,203333,GERALD R FORD INTL AP,MI,0.60,0.69,0.82,1.00,1.33,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+7,8,204155,JACKSON 3N,MI,0.60,0.70,0.80,1.00,1.26,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+7,9,202846,FLINT BISHOP INTL AP,MI,0.53,0.60,0.71,0.85,1.16,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+7,10,218235,THIEF LAKE REFUGE,MN,0.56,0.65,0.80,1.00,1.30,0.5-in*imperv.,0.5,#N/A,#N/A,#N/A,0.5-in*imperv.,0.5,#N/A,#N/A
+7,11,214026,INTERNATIONAL FALLS AP,MN,0.50,0.57,0.68,0.82,1.14,0.5-in*imperv.,0.5,75%,0.92,#N/A,0.5-in*imperv.,0.5,75%,#N/A
+7,12,212248,DULUTH INTL AP,MN,0.58,0.66,0.79,1.00,1.31,0.5-in*imperv.,0.5,#N/A,#N/A,#N/A,0.5-in*imperv.,0.5,#N/A,#N/A
+7,13,210112,ALEXANDRIA CHANDLER FLD,MN,0.60,0.70,0.83,1.01,1.31,0.5-in*imperv.,0.5,#N/A,#N/A,#N/A,0.5-in*imperv.,0.5,#N/A,#N/A
+7,14,217294,ST CLOUD MUNI AP,MN,0.59,0.68,0.83,1.01,1.39,0.5-in*imperv.,0.5,#N/A,#N/A,#N/A,0.5-in*imperv.,0.5,#N/A,#N/A
+7,15,218323,TRACY,MN,0.63,0.72,0.90,1.09,1.40,0.5-in*imperv.,0.5,#N/A,#N/A,#N/A,0.5-in*imperv.,0.5,#N/A,#N/A
+7,16,215987,NORTHFIELD 2 NNE,MN,0.64,0.73,0.90,1.10,1.42,0.5-in*imperv.,0.5,#N/A,#N/A,#N/A,0.5-in*imperv.,0.5,#N/A,#N/A
+7,17,217004,ROCHESTER INTL AP,MN,0.62,0.71,0.85,1.02,1.44,0.5-in*imperv.,0.5,#N/A,#N/A,#N/A,0.5-in*imperv.,0.5,#N/A,#N/A
+7,18,221743,CLEVELAND 3 N,MS,1.02,1.20,1.40,1.80,2.30,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+7,19,227815,SARDIS DAM,MS,1.00,1.12,1.32,1.60,2.16,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+7,20,229003,TUPELO RGNL AP,MS,0.95,1.10,1.30,1.60,2.13,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+7,21,228445,STONEVILLE EXP STN,MS,1.00,1.14,1.40,1.69,2.10,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+7,22,225062,LEXINGTON,MS,1.00,1.18,1.40,1.70,2.23,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+7,23,228374,STATE UNIV,MS,1.00,1.10,1.30,1.60,2.11,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+7,24,227714,RUTH 1 SE,MS,1.05,1.20,1.43,1.77,2.35,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+8,1,227220,PURVIS 2N,MS,1.03,1.20,1.40,1.76,2.30,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+8,2,225776,MERIDIAN AP,MS,0.96,1.11,1.30,1.56,2.12,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+8,3,227840,SAUCIER EXP FOREST,MS,1.06,1.28,1.50,1.85,2.50,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+8,4,234358,KANSAS CITY INTL AP,MO,0.76,0.87,1.01,1.22,1.76,1-in storm,1,80%,1.08,#N/A,,,#N/A,#N/A
+8,5,237455,ST LOUIS LAMBERT AP,MO,0.70,0.81,0.96,1.19,1.57,1-in storm,1,85%,1.25,#N/A,,,#N/A,#N/A
+8,6,235987,NEVADA WTP,MO,0.90,1.00,1.20,1.47,1.90,1-in storm,1,80%,1.08,#N/A,,,#N/A,#N/A
+8,7,237976,SPRINGFIELD WSO AP,MO,0.79,0.92,1.10,1.35,1.78,1-in storm,1,80%,1.08,#N/A,,,#N/A,#N/A
+8,8,238620,VIENNA 2 WNW,MO,0.81,0.97,1.11,1.40,1.74,1-in storm,1,80%,1.08,#N/A,,,#N/A,#N/A
+8,9,233999,HORNERSVILLE,MO,0.91,1.07,1.25,1.55,2.07,1-in storm,1,75%,0.92,#N/A,,,#N/A,#N/A
+8,10,245745,MISSOULA INTL AP,MT,0.31,0.35,0.41,0.48,0.64,0.5-in storm,0.5,90%,1.51,#N/A,,,#N/A,#N/A
+8,11,241309,BUTTE 8 S,MT,0.40,0.40,0.50,0.60,0.80,0.5-in storm,0.5,85%,1.25,#N/A,,,#N/A,#N/A
+8,12,241737,CHOTEAU,MT,0.45,0.50,0.63,0.75,1.00,0.5-in storm,0.5,80%,1.08,#N/A,,,#N/A,#N/A
+8,13,240807,BILLINGS INTL AP,MT,0.39,0.44,0.51,0.62,0.85,0.5-in storm,0.5,80%,1.08,#N/A,,,#N/A,#N/A
+8,14,241088,BREDETTE,MT,0.46,0.53,0.65,0.80,1.02,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+8,15,248169,TERRY 21 NNW,MT,0.47,0.53,0.63,0.80,1.06,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+8,16,257665,SCOTTSBLUFF AP,NE,0.44,0.50,0.61,0.76,0.99,0.5-in runoff,0.5,80%,1.08,#N/A,,,#N/A,#N/A
+8,17,258760,VALENTINE MILLER AP,NE,0.54,0.63,0.73,0.92,1.22,0.5-in runoff,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+8,18,255995,NORFOLK AP,NE,0.60,0.72,0.88,1.11,1.48,0.5-in runoff,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+8,19,253395,GRAND ISLAND CTR NE AP,NE,0.64,0.74,0.88,1.09,1.45,0.5-in runoff,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+8,20,254795,LINCOLN AP,NE,0.67,0.80,0.94,1.19,1.55,0.5-in runoff,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+8,21,256065,NORTH PLATTE RGNL AP,NE,0.58,0.69,0.81,0.96,1.25,0.5-in runoff,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+8,22,252560,EDISON,NE,0.70,0.80,0.90,1.10,1.41,0.5-in runoff,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+8,23,258395,SYRACUSE,NE,0.70,0.85,1.00,1.26,1.70,0.5-in runoff,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+8,24,269171,WINNEMUCCA AP,NV,0.31,0.35,0.39,0.45,0.58,80% of the average annual runoff,0.29,#N/A,#N/A,#N/A,,,#N/A,#N/A
+9,1,262631,ELY AIRPORT,NV,0.33,0.38,0.44,0.51,0.63,80% of the average annual runoff,0.33,75%,0.92,#N/A,,,#N/A,#N/A
+9,2,268170,TONOPAH AIRPORT,NV,0.35,0.38,0.42,0.53,0.63,80% of the average annual runoff,0.31,#N/A,#N/A,#N/A,,,#N/A,#N/A
+9,3,264436,LAS VEGAS AP,NV,0.44,0.51,0.58,0.69,0.88,80% of the average annual runoff,0.43,#N/A,#N/A,#N/A,,,#N/A,#N/A
+9,4,275639,MT WASHINGTON,NH,0.74,0.86,1.02,1.27,1.77,1-in storm,1,80%,1.08,#N/A,,,#N/A,#N/A
+9,5,271683,CONCORD ASOS,NH,0.63,0.72,0.85,1.04,1.33,1-in storm,1,85%,1.25,#N/A,,,#N/A,#N/A
+9,6,286026,NEWARK INTL AP,NJ,0.74,0.85,0.99,1.20,1.61,2-yr storm (pre/post),3.25,95%,2.01,-1.64,2-yr storm (pre/post),3.25,95%,-1.64
+9,7,280311,ATLANTIC CITY INTL AP,NJ,0.75,0.86,1.01,1.22,1.63,2-yr storm (pre/post),3.3,95%,2.01,-1.67,2-yr storm (pre/post),3.3,95%,-1.67
+9,8,281351,CAPE MAY 2 NW,NJ,0.78,0.90,1.00,1.20,1.66,2-yr storm (pre/post),3,95%,2.01,-1.34,2-yr storm (pre/post),3,95%,-1.34
+9,9,293142,FARMINGTON AG SCI CTR,NM,0.40,0.40,0.50,0.60,0.70,0.5-in storm,0.5,85%,1.25,#N/A, ,,#N/A,#N/A
+9,10,292837,EL VADO DAM,NM,0.40,0.45,0.50,0.60,0.80,0.5-in storm,0.5,85%,1.25,#N/A,,,#N/A,#N/A
+9,11,292030,CONCHAS DAM,NM,0.60,0.65,0.80,1.00,1.30,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+9,12,292250,CUBERO,NM,0.50,0.50,0.60,0.70,0.90,0.5-in storm,0.5,80%,1.08,#N/A,,,#N/A,#N/A
+9,13,290234,ALBUQUERQUE INTL AP,NM,0.38,0.43,0.51,0.60,0.77,0.5-in storm,0.5,80%,1.08,#N/A,,,#N/A,#N/A
+9,14,297094,PROGRESSO,NM,0.50,0.54,0.62,0.78,1.02,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+9,15,290600,ARTESIA 6S,NM,0.60,0.68,0.78,1.00,1.30,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+9,16,294426,JORNADA EXP RANGE,NM,0.50,0.58,0.65,0.80,1.07,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+9,17,303983,HORNELL ALMOND DAM,NY,0.50,0.60,0.70,0.90,1.20,95th Percentile Rainfall Depth,1.2,95%,2.01,0.00,95th Percentile Rainfall Depth,1.2,95%,0.00
+9,18,300687,BINGHAMTON GREATER AP,NY,0.54,0.62,0.74,0.89,1.16,95th Percentile Rainfall Depth,1.16,95%,2.01,0.00,95th Percentile Rainfall Depth,1.16,95%,0.00
+9,19,303851,HIGHMARKET,NY,0.70,0.80,0.90,1.10,1.50,95th Percentile Rainfall Depth,1.5,95%,2.01,0.00,95th Percentile Rainfall Depth,1.5,95%,0.00
+9,20,308586,TRIBES HILL,NY,0.60,0.70,0.80,1.00,1.30,95th Percentile Rainfall Depth,1.3,95%,2.01,0.00,95th Percentile Rainfall Depth,1.3,95%,0.00
+9,21,309389,WHITEHALL,NY,0.64,0.72,0.87,1.07,1.35,95th Percentile Rainfall Depth,1.35,95%,2.01,0.00,95th Percentile Rainfall Depth,1.35,95%,0.00
+9,22,301185,CANTON 4 SE,NY,0.51,0.60,0.70,0.88,1.14,95th Percentile Rainfall Depth,1.14,95%,2.01,0.00,95th Percentile Rainfall Depth,1.14,95%,0.00
+9,23,307167,ROCHESTER INTL AP,NY,0.48,0.56,0.65,0.79,1.03,95th Percentile Rainfall Depth,1.03,95%,2.01,0.00,95th Percentile Rainfall Depth,1.03,95%,0.00
+9,24,308383,SYRACUSE HANCOCK  AP,NY,0.51,0.60,0.70,0.85,1.13,95th Percentile Rainfall Depth,1.13,95%,2.01,0.00,95th Percentile Rainfall Depth,1.13,95%,0.00
+10,1,310301,ASHEVILLE,NC,0.60,0.69,0.82,1.00,1.37,1-in storm,1,90%,1.51,#N/A,1-in storm,1,90%,#N/A
+10,2,319675,YADKINVILLE 6 E,NC,0.80,0.90,1.00,1.30,1.63,1-in storm,1,85%,1.25,#N/A,1-in storm,1,85%,#N/A
+10,3,313630,GREENSBORO  AP,NC,0.71,0.83,0.98,1.20,1.56,1-in storm,1,85%,1.25,#N/A,1-in storm,1,85%,#N/A
+10,4,311690,CHARLOTTE DOUGLAS AP,NC,0.74,0.86,1.01,1.25,1.67,1-in storm,1,80%,1.08,#N/A,1-in storm,1,80%,#N/A
+10,5,319457,WILMINGTON INTL AP,NC,0.89,1.05,1.24,1.56,2.19,1-in storm,1,75%,0.92,#N/A,1-in storm,1,75%,#N/A
+10,6,319476,WILSON 3 SW,NC,0.80,0.92,1.10,1.30,1.74,1-in storm,1,80%,1.08,#N/A,1-in storm,1,80%,#N/A
+10,7,311458,CAPE HATTERAS AP,NC,0.87,1.02,1.26,1.59,2.16,1-in storm,1,75%,0.92,#N/A,1-in storm,1,75%,#N/A
+10,8,329425,WILLISTON SLOULIN FLD,ND,0.42,0.48,0.57,0.75,1.02,0.5-in*imperv.,0.5,80%,1.08,#N/A,,,#N/A,#N/A
+10,9,320492,BALFOUR 3 SW,ND,0.53,0.60,0.76,0.92,1.30,0.5-in*imperv.,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+10,10,321435,CAVALIER 7NW,ND,0.60,0.80,0.90,1.10,1.50,0.5-in*imperv.,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+10,11,327585,RIVERDALE,ND,0.60,0.70,0.80,0.96,1.35,0.5-in*imperv.,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+10,12,322018,DAWSON,ND,0.60,0.67,0.79,0.96,1.38,0.5-in*imperv.,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+10,13,322859,FARGO HECTOR INTL AP,ND,0.54,0.63,0.74,0.94,1.30,0.5-in*imperv.,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+10,14,327530,RICHARDTON ABBEY,ND,0.50,0.60,0.70,0.93,1.21,0.5-in*imperv.,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+10,15,320382,ASHLEY,ND,0.60,0.70,0.80,1.00,1.40,0.5-in*imperv.,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+10,16,338357,TOLEDO EXPRESS WSO AP,OH,0.56,0.64,0.76,0.91,1.22,WQv,0.75,80%,1.08,#N/A,WQv,P=0.75,#N/A,#N/A
+10,17,336196,OBERLIN,OH,0.58,0.65,0.78,0.94,1.24,WQv,0.75,80%,1.08,#N/A,WQv,P=0.75,#N/A,#N/A
+10,18,330058,AKRON CANTON WSO AP,OH,0.54,0.62,0.72,0.87,1.21,WQv,0.75,85%,1.25,#N/A,WQv,P=0.75,#N/A,#N/A
+10,19,337935,SPRINGFIELD NEW WWKS,OH,0.65,0.75,0.90,1.10,1.40,WQv,0.75,80%,1.08,#N/A,WQv,P=0.75,#N/A,#N/A
+10,20,331786,COLUMBUS WSO AP,OH,0.59,0.68,0.79,0.95,1.32,WQv,0.75,80%,1.08,#N/A,WQv,P=0.75,#N/A,#N/A
+10,21,334865,MANSFIELD WSO AP,OH,0.59,0.68,0.80,1.00,1.30,WQv,0.75,80%,1.08,#N/A,WQv,P=0.75,#N/A,#N/A
+10,22,334992,MASSILLON,OH,0.70,0.80,0.90,1.10,1.40,WQv,0.75,75%,0.92,#N/A,WQv,P=0.75,#N/A,#N/A
+10,23,332075,DAYTON WSO AP,OH,0.60,0.68,0.80,0.99,1.34,WQv,0.75,80%,1.08,#N/A,WQv,P=0.75,#N/A,#N/A
+10,24,334004,JACKSON 3 NW,OH,0.69,0.76,0.90,1.10,1.45,WQv,0.75,75%,0.92,#N/A,WQv,P=0.75,#N/A,#N/A
+11,1,338378,JENKINS DAM BURR OAK,OH,0.60,0.70,0.80,1.00,1.30,WQv,0.75,80%,1.08,#N/A,WQv,P=0.75,#N/A,#N/A
+11,2,343002,EVA,OK,0.60,0.70,0.80,1.00,1.30,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+11,3,343304,FORT SUPPLY 3SE,OK,0.75,0.86,1.00,1.23,1.71,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+11,4,348992,TULSA INTL AP,OK,0.89,1.03,1.23,1.49,1.95,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+11,5,345648,MAYFIELD,OK,0.80,0.90,1.10,1.39,1.90,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+11,6,348497,STIGLER 1 SE,OK,1.00,1.17,1.35,1.70,2.30,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+11,7,343281,FT COBB,OK,0.90,1.00,1.20,1.50,2.01,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+11,8,344865,KINGSTON 5 SSE,OK,0.97,1.13,1.34,1.65,2.18,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+11,9,340670,BENGAL 4 NNW,OK,1.01,1.20,1.40,1.77,2.40,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+11,10,350328,ASTORIA AP PORT OF,OR,0.66,0.76,0.88,1.08,1.42,80% of the average annual runoff,1.11,90%,1.51,#N/A,,,#N/A,#N/A
+11,11,355429,MEDFORD INTL AP,OR,0.43,0.50,0.60,0.72,0.97,80% of the average annual runoff,0.59,80%,1.08,#N/A,,,#N/A,#N/A
+11,12,352697,ESTACADA 24 SE,OR,0.63,0.70,0.88,1.00,1.40,80% of the average annual runoff,1.04,90%,1.51,#N/A,,,#N/A,#N/A
+11,13,353232,GERBER DAM,OR,0.50,0.50,0.60,0.80,1.20,80% of the average annual runoff,0.73,85%,1.25,#N/A,,,#N/A,#N/A
+11,14,356546,PENDLETON E OR RGNL AP,OR,0.33,0.36,0.41,0.48,0.62,80% of the average annual runoff,0.3,#N/A,#N/A,#N/A,,,#N/A,#N/A
+11,15,354670,LAKEVIEW 2 NNW,OR,0.40,0.43,0.50,0.60,0.79,80% of the average annual runoff,0.43,80%,1.08,#N/A,,,#N/A,#N/A
+11,16,356845,PRAIRIE CITY RS,OR,0.36,0.40,0.47,0.53,0.70,80% of the average annual runoff,0.34,#N/A,#N/A,#N/A,,,#N/A,#N/A
+11,17,354321,JORDAN VALLEY,OR,0.35,0.40,0.45,0.51,0.71,80% of the average annual runoff,0.36,75%,0.92,#N/A,,,#N/A,#N/A
+11,18,369705,WILKES-BARRE INTL AP,PA,0.58,0.67,0.78,0.97,1.29,2-yr storm (pre/post),2.75,95%,2.01,-1.46,2-yr storm (pre/post),2.75,95%,-1.46
+11,19,360106,ALLENTOWN AP,PA,0.72,0.83,0.99,1.19,1.57,2-yr storm (pre/post),3.1,95%,2.01,-1.53,2-yr storm (pre/post),3.1,95%,-1.53
+11,20,366889,PHILADELPHIA INTL AP,PA,0.73,0.85,0.99,1.20,1.60,2-yr storm (pre/post),3.2,95%,2.01,-1.60,2-yr storm (pre/post),3.2,95%,-1.60
+11,21,363699,HARRISBURG CAPITAL CY,PA,0.64,0.72,0.84,1.06,1.47,2-yr storm (pre/post),2.9,95%,2.01,-1.43,2-yr storm (pre/post),2.9,95%,-1.43
+11,22,367931,SELINSGROVE 2 S,PA,0.80,0.90,1.00,1.20,1.70,2-yr storm (pre/post),2.8,95%,2.01,-1.10,2-yr storm (pre/post),2.8,95%,-1.10
+11,23,368905,TOWANDA 1 S,PA,0.60,0.70,0.80,0.95,1.21,2-yr storm (pre/post),2.45,95%,2.01,-1.24,2-yr storm (pre/post),2.45,95%,-1.24
+11,24,362265,DU BOIS 7 E,PA,0.55,0.63,0.75,0.93,1.15,2-yr storm (pre/post),2.5,95%,2.01,-1.35,2-yr storm (pre/post),2.5,95%,-1.35
+12,1,364001,HOLLIDAYSBURG 2 NW,PA,0.60,0.70,0.81,1.00,1.30,2-yr storm (pre/post),2.7,95%,2.01,-1.40,2-yr storm (pre/post),2.7,95%,-1.40
+12,2,366993,PITTSBURGH ASOS,PA,0.53,0.61,0.71,0.87,1.13,2-yr storm (pre/post),2.3,95%,2.01,-1.17,2-yr storm (pre/post),2.3,95%,-1.17
+12,3,362682,ERIE WSO AP,PA,0.52,0.61,0.73,0.90,1.21,2-yr storm (pre/post),2.6,95%,2.01,-1.39,2-yr storm (pre/post),2.6,95%,-1.39
+12,4,376698,PROVIDENCE,RI,0.75,0.89,1.05,1.32,1.75,WQv,1,80%,1.08,#N/A,,,#N/A,#N/A
+12,5,384581,JOCASSEE 8 WNW,SC,1.10,1.33,1.60,2.01,2.80,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+12,6,383747,GRNVL SPART INTL AP,SC,0.80,0.94,1.12,1.39,1.86,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+12,7,389327,WINNSBORO,SC,0.90,1.00,1.20,1.45,1.90,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+12,8,385306,LORIS 2 S,SC,0.90,1.00,1.20,1.43,1.90,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+12,9,386209,NEWBERRY,SC,0.90,1.00,1.20,1.50,1.90,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+12,10,381544,CHARLESTON INTL AP,SC,0.85,0.99,1.20,1.47,2.00,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+12,11,394864,LEMMON,SD,0.50,0.60,0.71,0.90,1.20,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+12,12,396282,ONAKA 2N,SD,0.60,0.70,0.80,1.00,1.40,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+12,13,390020,ABERDEEN RGNL AP,SD,0.55,0.66,0.79,0.95,1.32,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+12,14,396427,PACTOLA DAM,SD,0.50,0.60,0.70,0.82,1.20,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+12,15,392557,EDGEMONT,SD,0.50,0.56,0.62,0.80,1.02,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+12,16,396170,OAHE DAM,SD,0.60,0.70,0.80,1.00,1.30,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+12,17,394127,HURON AP,SD,0.56,0.66,0.78,0.98,1.28,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+12,18,395620,MISSION,SD,0.60,0.70,0.90,1.10,1.41,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+12,19,397667,SIOUX FALLS AP,SD,0.61,0.71,0.85,1.05,1.41,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+12,20,401656,CHATTANOOGA AP,TN,0.83,0.96,1.12,1.35,1.79,1-in storm,1,80%,1.08,#N/A,,,#N/A,#N/A
+12,21,406170,MONTEREY,TN,0.90,1.00,1.19,1.40,1.82,1-in storm,1,80%,1.08,#N/A,,,#N/A,#N/A
+12,22,405954,MEMPHIS INTL AP,TN,0.93,1.10,1.30,1.57,2.02,1-in storm,1,75%,0.92,#N/A,,,#N/A,#N/A
+12,23,415411,LUBBOCK INTL AP,TX,0.65,0.75,0.91,1.12,1.55,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+12,24,419729,WICHITA FALLS MUNI AP,TX,0.84,0.97,1.13,1.36,1.86,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+13,1,413284,FT WORTH MEACHAM FLD,TX,0.89,1.00,1.20,1.50,2.03,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+13,2,419665,WHEELOCK,TX,1.00,1.14,1.36,1.70,2.20,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+13,3,418845,TARPLEY,TX,0.95,1.10,1.30,1.63,2.22,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+13,4,410428,AUSTIN-CAMP MABRY,TX,0.85,1.01,1.21,1.49,2.01,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+13,5,419364,VICTORIA ASOS,TX,0.92,1.08,1.32,1.64,2.30,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+13,6,414191,HINDES,TX,0.90,1.07,1.30,1.69,2.38,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+13,7,411136,BROWNSVILLE INTL AP,TX,0.80,0.97,1.17,1.54,2.28,0.5-in storm,0.5,#N/A,#N/A,#N/A,,,#N/A,#N/A
+13,8,422090,DELTA,UT,0.35,0.40,0.45,0.50,0.69,0.5-in storm,0.5,90%,1.51,#N/A,,,#N/A,#N/A
+13,9,427516,ST GEORGE,UT,0.40,0.50,0.55,0.60,0.80,0.5-in storm,0.5,80%,1.08,#N/A,,,#N/A,#N/A
+13,10,426135,NEPHI,UT,0.40,0.45,0.50,0.60,0.75,0.5-in storm,0.5,85%,1.25,#N/A,,,#N/A,#N/A
+13,11,422385,ECHO DAM,UT,0.40,0.40,0.50,0.60,0.70,0.5-in storm,0.5,85%,1.25,#N/A,,,#N/A,#N/A
+13,12,427395,ROOSEVELT RADIO,UT,0.37,0.40,0.46,0.51,0.70,0.5-in storm,0.5,85%,1.25,#N/A,,,#N/A,#N/A
+13,13,420738,BLANDING,UT,0.43,0.50,0.58,0.70,0.90,0.5-in storm,0.5,80%,1.08,#N/A,,,#N/A,#N/A
+13,14,431565,CORINTH,VT,0.60,0.70,0.80,1.00,1.30,WQv (Rev),0.9,85%,1.25,#N/A,WQv (Rev),P=0.9,#N/A,#N/A
+13,15,431081,BURLINGTON WSO AP,VT,0.52,0.60,0.69,0.84,1.10,WQv (Rev),0.9,90%,1.51,#N/A,WQv (Rev),P=0.9,#N/A,#N/A
+13,16,438556,UNION VILLAGE DAM,VT,0.57,0.66,0.77,0.95,1.26,WQv (Rev),0.9,85%,1.25,#N/A,WQv (Rev),P=0.9,#N/A,#N/A
+13,17,446139,NORFOLK INTL AP,VA,0.73,0.84,1.01,1.26,1.76,Water Quality Storm,1,80%,1.08,#N/A,Water Quality Storm,1,80%,#N/A
+13,18,447201,RICHMOND INTL AP,VA,0.74,0.86,1.01,1.28,1.69,Water Quality Storm,1,80%,1.08,#N/A,Water Quality Storm,1,80%,#N/A
+13,19,445120,LYNCHBURG INTL AP,VA,0.69,0.79,0.93,1.16,1.55,Water Quality Storm,1,85%,1.25,#N/A,Water Quality Storm,1,85%,#N/A
+13,20,447285,ROANOKE INTL AP,VA,0.69,0.81,0.93,1.15,1.50,Water Quality Storm,1,85%,1.25,#N/A,Water Quality Storm,1,85%,#N/A
+13,21,448547,TROUT DALE 3 SSE,VA,0.70,0.80,0.90,1.10,1.44,Water Quality Storm,1,85%,1.25,#N/A,Water Quality Storm,1,85%,#N/A
+13,22,456858,QUILLAYUTE AP,WA,0.89,1.02,1.20,1.47,1.97,6-mo 24-hr storm,3.24,95%,2.01,-1.27,6-mo 24-hr storm,3.24,95%,-1.27
+13,23,456678,PORT TOWNSEND,WA,0.34,0.40,0.46,0.55,0.72,6-mo 24-hr storm,0.9,95%,2.01,-0.18,6-mo 24-hr storm,0.9,95%,-0.18
+13,24,456114,OLYMPIA AP,WA,0.58,0.67,0.79,0.95,1.27,6-mo 24-hr storm,1.8,95%,2.01,-0.53,6-mo 24-hr storm,1.8,95%,-0.53
+14,1,453357,GREENWATER,WA,0.58,0.66,0.79,0.95,1.31,6-mo 24-hr storm,2.52,95%,2.01,-1.21,6-mo 24-hr storm,2.52,95%,-1.21
+14,2,458009,STAMPEDE PASS,WA,0.78,0.91,1.07,1.32,1.80,6-mo 24-hr storm,2.8,95%,2.01,-1.00,6-mo 24-hr storm,2.8,95%,-1.00
+14,3,454849,LUCERNE 1 N,WA,0.50,0.57,0.68,0.86,1.16,6-mo 24-hr storm,3.5,95%,2.01,-2.34,6-mo 24-hr storm,3.5,95%,-2.34
+14,4,453515,HARRINGTON 1 NW,WA,0.40,0.40,0.50,0.50,0.66,6-mo 24-hr storm,0.69,95%,2.01,-0.03,6-mo 24-hr storm,0.69,95%,-0.03
+14,5,458207,SUNNYSIDE,WA,0.30,0.35,0.40,0.50,0.60,6-mo 24-hr storm,0.66,95%,2.01,-0.06,6-mo 24-hr storm,0.66,95%,-0.06
+14,6,457938,SPOKANE INTL AP,WA,0.35,0.39,0.45,0.53,0.66,6-mo 24-hr storm,0.966,95%,2.01,-0.31,6-mo 24-hr storm,0.966,95%,-0.31
+14,7,456789,PULLMAN 2 NW,WA,0.40,0.45,0.51,0.61,0.80,6-mo 24-hr storm,1.05,95%,2.01,-0.25,6-mo 24-hr storm,1.05,95%,-0.25
+14,8,466859,PARKERSBURG,WV,0.57,0.65,0.78,0.91,1.18,1-in storm,1,90%,1.51,#N/A,,,#N/A,#N/A
+14,9,465002,LAKE LYNN,WV,0.60,0.63,0.75,0.90,1.20,1-in storm,1,90%,1.51,#N/A,,,#N/A,#N/A
+14,10,461570,CHARLESTON YEAGER AP,WV,0.60,0.69,0.79,0.96,1.24,1-in storm,1,90%,1.51,#N/A,,,#N/A,#N/A
+14,11,462718,ELKINS RANDOLPH CY AP,WV,0.54,0.62,0.72,0.86,1.12,1-in storm,1,90%,1.51,#N/A,,,#N/A,#N/A
+14,12,469011,UNION 3 SSE,WV,0.60,0.70,0.80,0.92,1.20,1-in storm,1,90%,1.51,#N/A,,,#N/A,#N/A
+14,13,465739,MATHIAS,WV,0.60,0.70,0.80,1.00,1.30,1-in storm,1,90%,1.51,#N/A,,,#N/A,#N/A
+14,14,470349,ASHLAND EXP FARM,WI,0.60,0.70,0.80,1.00,1.34,2-yr storm (25% for res; 10% for non-res),2.5,95%,2.01,-1.16,2-yr storm (25% for res; 10% for non-res),2.5,95%,-1.16
+14,15,476939,RAINBOW RSVR TOMAHAWK,WI,0.53,0.62,0.74,0.90,1.20,2-yr storm (25% for res; 10% for non-res),2.5,95%,2.01,-1.30,2-yr storm (25% for res; 10% for non-res),2.5,95%,-1.30
+14,16,476510,PESHTIGO,WI,0.60,0.70,0.80,1.00,1.30,2-yr storm (25% for res; 10% for non-res),2.25,95%,2.01,-0.95,2-yr storm (25% for res; 10% for non-res),2.25,95%,-0.95
+14,17,475948,NEW RICHMOND,WI,0.70,0.80,0.90,1.11,1.50,2-yr storm (25% for res; 10% for non-res),2.75,95%,2.01,-1.25,2-yr storm (25% for res; 10% for non-res),2.75,95%,-1.25
+14,18,471676,CLINTONVILLE,WI,0.60,0.70,0.82,1.00,1.39,2-yr storm (25% for res; 10% for non-res),2.4,95%,2.01,-1.01,2-yr storm (25% for res; 10% for non-res),2.4,95%,-1.01
+14,19,473269,GREEN BAY A S INTL AP,WI,0.53,0.63,0.74,0.92,1.18,2-yr storm (25% for res; 10% for non-res),2.4,95%,2.01,-1.22,2-yr storm (25% for res; 10% for non-res),2.4,95%,-1.22
+14,20,474546,LANCASTER 4 WSW,WI,0.66,0.75,0.90,1.10,1.50,2-yr storm (25% for res; 10% for non-res),3,95%,2.01,-1.50,2-yr storm (25% for res; 10% for non-res),3,95%,-1.50
+14,21,474961,MADISON DANE CO AP,WI,0.61,0.70,0.83,1.02,1.42,2-yr storm (25% for res; 10% for non-res),2.75,95%,2.01,-1.33,2-yr storm (25% for res; 10% for non-res),2.75,95%,-1.33
+14,22,475479,MILWAUKEE MITCHELL AP,WI,0.59,0.69,0.79,0.99,1.33,2-yr storm (25% for res; 10% for non-res),2.4,95%,2.01,-1.07,2-yr storm (25% for res; 10% for non-res),2.4,95%,-1.07
+14,23,485345,LAKE YELLOWSTONE,WY,0.35,0.40,0.43,0.51,0.70,0.5-in storm,0.5,85%,1.25,#N/A, ,,#N/A,#N/A
+14,24,486440,MORAN 5 WNW,WY,0.40,0.42,0.50,0.60,0.77,0.5-in storm,0.5,85%,1.25,#N/A,,,#N/A,#N/A
+15,1,487845,ROCK SPRINGS AP,WY,0.33,0.40,0.40,0.50,0.60,0.5-in storm,0.5,90%,1.51,#N/A,,,#N/A,#N/A
+15,2,488852,TENSLEEP 4NE,WY,0.40,0.50,0.60,0.70,0.90,0.5-in storm,0.5,80%,1.08,#N/A,,,#N/A,#N/A
+15,3,488155,SHERIDAN AP,WY,0.38,0.44,0.52,0.61,0.83,0.5-in storm,0.5,80%,1.08,#N/A,,,#N/A,#N/A
+15,4,487270,PINE TREE 9 NE,WY,0.42,0.50,0.60,0.80,1.11,0.5-in storm,0.5,80%,1.08,#N/A,,,#N/A,#N/A
+15,5,486660,NEWCASTLE,WY,0.48,0.50,0.60,0.80,1.00,0.5-in storm,0.5,80%,1.08,#N/A,,,#N/A,#N/A
+15,6,481570,CASPER WSCMO,WY,0.34,0.39,0.45,0.57,0.80,0.5-in storm,0.5,85%,1.25,#N/A,,,#N/A,#N/A
+15,7,485390,LANDER AP,WY,0.46,0.52,0.60,0.74,0.97,0.5-in storm,0.5,75%,0.92,#N/A,,,#N/A,#N/A
+15,8,487105,PATHFINDER DAM,WY,0.36,0.40,0.50,0.59,0.75,0.5-in storm,0.5,85%,1.25,#N/A,,,#N/A,#N/A
+15,9,500352,ANNETTE WSO AP,AK,0.80,0.93,1.08,1.31,1.70,0.52-in storm,0.52,#N/A,#N/A,#N/A,,,#N/A,#N/A
+15,10,511492,HILO INTL AP 87,HI,0.72,0.86,1.07,1.45,2.27,1.0-in storm,1,80%,1.08,#N/A,1.0-in storm,1,80%,#N/A
+15,11,668812,SAN JUAN INTL AP,PR,0.56,0.68,0.82,1.06,1.53,0.5-in storm,0.5,#N/A,#N/A,#N/A, ,,#N/A,#N/A
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
