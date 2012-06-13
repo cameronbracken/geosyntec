@@ -118,7 +118,6 @@ get_actual_replacement <- function(standards,standardid,rep_std){
 		possible_sauids <- make_std_sauids(this_infeas,rep_std)
 		not_found_replacement <- TRUE
 		i <- 0
-		browser()
 		while(not_found_replacement){
 			i <- i + 1
 			if(i == length(check_ord)){
@@ -138,15 +137,20 @@ get_actual_replacement <- function(standards,standardid,rep_std){
 	}
 }
 
-
-stop()
 ###################
 #
 # Start Working code
 #
 ###################
+#channel <- odbcConnect('epa_sw')
 
-channel <- odbcConnect('epa_sw')
+e2 <- try(typeof(channel),silent=TRUE)
+    # Connect to the db and pull data
+if(class(e2)=='try-error'){
+    print_flush('Connecting to output database...')
+    ptm <- proc.time()
+    channel <- odbcConnect('epa_sw')
+}
 
 dbs <- paste('bw0169',
 	runs <- c('newdev2'#, 'redev1', 
@@ -158,13 +162,18 @@ dbs <- paste('bw0169',
 
 #run_standards <- read.xlsx('run_standards.xlsx',sheetIndex=3)
 #depths <- read.xlsx('Percentile_Storms_with_standards.xlsx',sheetName='depths_no_calcs')
+print_flush('Reading Baseline Depths...')
 depths <- read.xlsx('inferred_baseline_depths.xlsx',sheetName='Summary')
 names(depths) <- tolower(names(depths))
 depths$depth_state[depths$depth_state == 0] <- NA
 
+cache_dir <- 'cache'
+if(!file.exists(cache_dir)) dir.create(cache_dir)
+
 for(dbi in 1:length(dbs)){
 	print_flush('Using',dbs[dbi])
 	sqlQuery(channel,paste("USE",dbs[dbi]))
+	this_infeas_cache <- file.path(cache_dir, paste(dbs[dbi],'.RData',sep=''))
 
 		# add column for flag to indicate which standard the 
 		# infeasible solution was switched to
@@ -173,13 +182,18 @@ for(dbi in 1:length(dbs)){
 	
 		# get all the infeasible solutions from the database
 	print_flusht('Pulling Infeasible Results...')
-	infeas <- sqlQuery(channel,'select * from sauid_lookup where result_code=-1')
+	if(!file.exists(this_infeas_cache)){
+		infeas <- sqlQuery(channel,'select * from sauid_lookup where result_code=-1')
+		save(infeas,file=this_infeas_cache)
+	}else{
+		load(this_infeas_cache)
+	}
 
 		# get the list of standards from the database
 	print_flusht('Pulling Standards Table...')
 	standards <- sqlQuery(channel,'select * from standards')
 
-	standards <- add_standards_column(standards)
+	standards_db <- add_standards_column(standards)
 
 	print_flusht('Fixing Infeasible Results...')
 	pb <- txtProgressBar(1,nrow(infeas),style=3)
@@ -193,10 +207,10 @@ for(dbi in 1:length(dbs)){
 		storm_depth <- make_percentile_df(this_depth)
 		ms4 <- this_depth$depth_ms4
 
-		standards <- add_depth_column(standards,this_depth)
+		standards <- add_depth_column(standards_db,this_depth)
 
 
-		if(this_depth$standardid <= 2){
+		if(standardid <= 2){
 			# baseline standard infeasible
 			rep_std <- get_baseline_replacement(standards,standardid)
 
@@ -209,7 +223,7 @@ for(dbi in 1:length(dbs)){
 
 		}
 		rep_std <- get_actual_replacement(standards,standardid,rep_std)
-
+		if(nrow(rep_std) != 1) browser()
 
 		# match the infeasible standard to a depth in depths list
 
